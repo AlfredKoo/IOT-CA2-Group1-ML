@@ -1,0 +1,18 @@
+3 functions inside:
+model_functions.create_new_training_dataframe()
+model_functions.training(modelselection) #Training reads from a csv file in label and datasets accordingly
+					 #Creates the model for prediction
+model_functions.prediction(modelselection,dataset) #Choose model to predict
+
+modelselection options:
+SGDClassifier
+SGDClassifier_scaled
+LogisticRegressor
+LogisticRegressor_scaled
+KNNClassifier
+KNNClassifier_scaled
+RandomForest
+RandomForest_scaled
+
+Note: For the final implentation, feature engineering of dataset was scrapped
+due to false positives.

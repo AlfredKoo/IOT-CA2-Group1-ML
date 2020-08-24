@@ -1,0 +1,3 @@
+import model_functions
+
+model_functions.training_model("LogisticRegressor_scaled")
